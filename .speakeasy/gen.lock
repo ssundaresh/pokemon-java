@@ -1,0 +1,210 @@
+lockVersion: 2.0.0
+id: f5d464fa-645d-4c5c-8175-c7b5c9f7f0f1
+management:
+  docChecksum: 935119865db6f470980364c4f609303c
+  docVersion: "1.0"
+  speakeasyVersion: 1.420.0
+  generationVersion: 2.438.15
+  releaseVersion: 0.0.1
+  configChecksum: e9d23e8597a99651b0a75ca24d467618
+features:
+  java:
+    additionalDependencies: 0.1.0
+    core: 3.30.5
+    flattening: 2.81.1
+    globalSecurityCallbacks: 0.1.0
+    globalServerURLs: 2.82.1
+    nameOverrides: 2.81.3
+    nullables: 0.1.0
+    retries: 0.1.1
+    sdkHooks: 0.1.0
+generatedFiles:
+  - .gitattributes
+  - CONTRIBUTING.md
+  - USAGE.md
+  - build.gradle
+  - docs/models/components/Abilities.md
+  - docs/models/components/Ability.md
+  - docs/models/components/AbilitySummary.md
+  - docs/models/components/Cries.md
+  - docs/models/components/Generation.md
+  - docs/models/components/GenerationDetail.md
+  - docs/models/components/GenerationName.md
+  - docs/models/components/GenerationSummary.md
+  - docs/models/components/LanguageSummary.md
+  - docs/models/components/Move.md
+  - docs/models/components/MoveLearnMethod.md
+  - docs/models/components/MoveSummary.md
+  - docs/models/components/Moves.md
+  - docs/models/components/PaginatedGenerationSummaryList.md
+  - docs/models/components/PaginatedPokemonSummaryList.md
+  - docs/models/components/PastAbilities.md
+  - docs/models/components/PastTypes.md
+  - docs/models/components/PokemonDetail.md
+  - docs/models/components/PokemonDetailAbilities.md
+  - docs/models/components/PokemonDetailAbility.md
+  - docs/models/components/PokemonDetailGeneration.md
+  - docs/models/components/PokemonDetailType.md
+  - docs/models/components/PokemonDetailTypes.md
+  - docs/models/components/PokemonFormSummary.md
+  - docs/models/components/PokemonGameIndex.md
+  - docs/models/components/PokemonSpeciesSummary.md
+  - docs/models/components/PokemonStat.md
+  - docs/models/components/PokemonSummary.md
+  - docs/models/components/RegionSummary.md
+  - docs/models/components/StatSummary.md
+  - docs/models/components/Type.md
+  - docs/models/components/TypeSummary.md
+  - docs/models/components/Types.md
+  - docs/models/components/VersionGroup.md
+  - docs/models/components/VersionGroupDetails.md
+  - docs/models/components/VersionGroupSummary.md
+  - docs/models/components/VersionSummary.md
+  - docs/models/errors/ApiErrorNotFound.md
+  - docs/models/operations/GenerationListRequest.md
+  - docs/models/operations/GenerationListResponse.md
+  - docs/models/operations/GenerationRetrieveRequest.md
+  - docs/models/operations/GenerationRetrieveResponse.md
+  - docs/models/operations/PokemonListRequest.md
+  - docs/models/operations/PokemonListResponse.md
+  - docs/models/operations/PokemonRetrieveByIdOrNameRequest.md
+  - docs/models/operations/PokemonRetrieveByIdOrNameResponse.md
+  - docs/sdks/games/README.md
+  - docs/sdks/pokemon/README.md
+  - docs/sdks/pokemonsdk/README.md
+  - gradle/wrapper/gradle-wrapper.jar
+  - gradle/wrapper/gradle-wrapper.properties
+  - gradlew
+  - gradlew.bat
+  - settings.gradle
+  - src/main/java/com/self/openapi/pokemon/Games.java
+  - src/main/java/com/self/openapi/pokemon/Pokemon.java
+  - src/main/java/com/self/openapi/pokemon/PokemonSDK.java
+  - src/main/java/com/self/openapi/pokemon/SDKConfiguration.java
+  - src/main/java/com/self/openapi/pokemon/SecuritySource.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Abilities.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Ability.java
+  - src/main/java/com/self/openapi/pokemon/models/components/AbilitySummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Cries.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Generation.java
+  - src/main/java/com/self/openapi/pokemon/models/components/GenerationDetail.java
+  - src/main/java/com/self/openapi/pokemon/models/components/GenerationName.java
+  - src/main/java/com/self/openapi/pokemon/models/components/GenerationSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/LanguageSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Move.java
+  - src/main/java/com/self/openapi/pokemon/models/components/MoveLearnMethod.java
+  - src/main/java/com/self/openapi/pokemon/models/components/MoveSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Moves.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PaginatedGenerationSummaryList.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PaginatedPokemonSummaryList.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PastAbilities.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PastTypes.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonDetail.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonDetailAbilities.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonDetailAbility.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonDetailGeneration.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonDetailType.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonDetailTypes.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonFormSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonGameIndex.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonSpeciesSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonStat.java
+  - src/main/java/com/self/openapi/pokemon/models/components/PokemonSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/RegionSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Security.java
+  - src/main/java/com/self/openapi/pokemon/models/components/StatSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Type.java
+  - src/main/java/com/self/openapi/pokemon/models/components/TypeSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/Types.java
+  - src/main/java/com/self/openapi/pokemon/models/components/VersionGroup.java
+  - src/main/java/com/self/openapi/pokemon/models/components/VersionGroupDetails.java
+  - src/main/java/com/self/openapi/pokemon/models/components/VersionGroupSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/components/VersionSummary.java
+  - src/main/java/com/self/openapi/pokemon/models/errors/ApiErrorNotFound.java
+  - src/main/java/com/self/openapi/pokemon/models/errors/AuthException.java
+  - src/main/java/com/self/openapi/pokemon/models/errors/SDKError.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/GenerationListRequest.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/GenerationListRequestBuilder.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/GenerationListResponse.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/GenerationRetrieveRequest.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/GenerationRetrieveRequestBuilder.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/GenerationRetrieveResponse.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/PokemonListRequest.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/PokemonListRequestBuilder.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/PokemonListResponse.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/PokemonRetrieveByIdOrNameRequest.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/PokemonRetrieveByIdOrNameRequestBuilder.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/PokemonRetrieveByIdOrNameResponse.java
+  - src/main/java/com/self/openapi/pokemon/models/operations/SDKMethodInterfaces.java
+  - src/main/java/com/self/openapi/pokemon/utils/BackoffStrategy.java
+  - src/main/java/com/self/openapi/pokemon/utils/BigDecimalString.java
+  - src/main/java/com/self/openapi/pokemon/utils/BigIntegerString.java
+  - src/main/java/com/self/openapi/pokemon/utils/Deserializers.java
+  - src/main/java/com/self/openapi/pokemon/utils/EventStream.java
+  - src/main/java/com/self/openapi/pokemon/utils/EventStreamLineReader.java
+  - src/main/java/com/self/openapi/pokemon/utils/EventStreamMessage.java
+  - src/main/java/com/self/openapi/pokemon/utils/EventStreamReader.java
+  - src/main/java/com/self/openapi/pokemon/utils/FormMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/HTTPClient.java
+  - src/main/java/com/self/openapi/pokemon/utils/HTTPRequest.java
+  - src/main/java/com/self/openapi/pokemon/utils/HeaderMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/Helpers.java
+  - src/main/java/com/self/openapi/pokemon/utils/Hook.java
+  - src/main/java/com/self/openapi/pokemon/utils/Hooks.java
+  - src/main/java/com/self/openapi/pokemon/utils/JSON.java
+  - src/main/java/com/self/openapi/pokemon/utils/LazySingletonValue.java
+  - src/main/java/com/self/openapi/pokemon/utils/Metadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/MultipartFormMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/OneOfDeserializer.java
+  - src/main/java/com/self/openapi/pokemon/utils/Options.java
+  - src/main/java/com/self/openapi/pokemon/utils/PathParamsMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/QueryParameters.java
+  - src/main/java/com/self/openapi/pokemon/utils/QueryParamsMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/RequestBody.java
+  - src/main/java/com/self/openapi/pokemon/utils/RequestMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/Response.java
+  - src/main/java/com/self/openapi/pokemon/utils/Retries.java
+  - src/main/java/com/self/openapi/pokemon/utils/RetryConfig.java
+  - src/main/java/com/self/openapi/pokemon/utils/Security.java
+  - src/main/java/com/self/openapi/pokemon/utils/SecurityMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/SerializedBody.java
+  - src/main/java/com/self/openapi/pokemon/utils/SpeakeasyHTTPClient.java
+  - src/main/java/com/self/openapi/pokemon/utils/SpeakeasyMetadata.java
+  - src/main/java/com/self/openapi/pokemon/utils/TypedObject.java
+  - src/main/java/com/self/openapi/pokemon/utils/Types.java
+  - src/main/java/com/self/openapi/pokemon/utils/Utils.java
+examples:
+  pokemon_retrieve_by_id_or_name:
+    speakeasy-default-pokemon-retrieve-by-id-or-name:
+      parameters:
+        path:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: {"id": 866831, "name": "<value>", "abilities": [], "past_abilities": [{"abilities": [{"ability": {"name": "levitate", "url": "https://pokeapi.co/api/v2/ability/26/"}, "is_hidden": true, "slot": 1}], "generation": {"name": "generation-vi", "url": "https://pokeapi.co/api/v2/generation/6/"}}, {"abilities": [], "generation": {"name": "generation-vi", "url": "https://pokeapi.co/api/v2/generation/6/"}}], "forms": [{"name": "<value>", "url": "https://unpleasant-tusk.name/"}, {"name": "<value>", "url": "https://ajar-plugin.com/"}, {"name": "<value>", "url": "https://puny-pepper.name"}], "game_indices": [{"game_index": 616764, "version": {"name": "<value>", "url": "https://tepid-juggernaut.biz"}}], "held_items": ["<value>", "<value>", "<value>"], "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/1/encounters", "moves": [], "species": {"name": "<value>", "url": "https://neighboring-bend.info"}, "sprites": {"back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png", "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png", "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png", "back_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png", "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png", "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png", "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png", "front_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png"}, "cries": {"latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/50.ogg", "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/50.ogg"}, "stats": [{"base_stat": 651588, "effort": 366526, "stat": {"name": "<value>", "url": "https://sophisticated-seafood.net"}}], "types": [{"slot": 1, "type": {"name": "ghost", "url": "https://pokeapi.co/api/v2/type/8/"}}], "past_types": [{"generation": {"name": "generation-v", "url": "https://pokeapi.co/api/v2/generation/5/"}, "types": [{"slot": 1, "type": {"name": "normal", "url": "https://pokeapi.co/api/v2/type/1/"}}, {"slot": 1, "type": {"name": "normal", "url": "https://pokeapi.co/api/v2/type/1/"}}]}]}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  pokemon_list:
+    speakeasy-default-pokemon-list:
+      responses:
+        "200":
+          application/json: {"count": 123, "next": "http://api.example.org/accounts/?offset=400&limit=100", "previous": "http://api.example.org/accounts/?offset=200&limit=100"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  generation_retrieve:
+    speakeasy-default-generation-retrieve:
+      parameters:
+        path:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: {"id": 420160, "name": "<value>", "abilities": [{"name": "<value>", "url": "https://honorable-farmer.biz"}], "main_region": {"name": "<value>", "url": "https://irresponsible-gift.info/"}, "moves": [], "names": [{"name": "<value>", "language": {"name": "<value>", "url": "https://rich-platter.org/"}}], "pokemon_species": [{"name": "<value>", "url": "https://mediocre-mouser.com/"}, {"name": "<value>", "url": "https://earnest-tomatillo.com/"}, {"name": "<value>", "url": "https://empty-octave.info/"}], "types": [{"name": "<value>", "url": "https://interesting-dividend.info/"}, {"name": "<value>", "url": "https://firsthand-giggle.info"}], "version_groups": [{"name": "<value>", "url": "https://sociable-soliloquy.info"}, {"name": "<value>", "url": "https://weird-government.org"}]}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  generation_list:
+    speakeasy-default-generation-list:
+      responses:
+        "200":
+          application/json: {"count": 123, "next": "http://api.example.org/accounts/?offset=400&limit=100", "previous": "http://api.example.org/accounts/?offset=200&limit=100"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}

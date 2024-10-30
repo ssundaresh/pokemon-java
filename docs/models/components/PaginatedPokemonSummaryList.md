@@ -1,0 +1,11 @@
+# PaginatedPokemonSummaryList
+
+
+## Fields
+
+| Field                                                              | Type                                                               | Required                                                           | Description                                                        | Example                                                            |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `count`                                                            | *Optional\<Long>*                                                  | :heavy_minus_sign:                                                 | N/A                                                                | 123                                                                |
+| `next`                                                             | *JsonNullable\<String>*                                            | :heavy_minus_sign:                                                 | N/A                                                                | http://api.example.org/accounts/?offset=400&limit=100              |
+| `previous`                                                         | *JsonNullable\<String>*                                            | :heavy_minus_sign:                                                 | N/A                                                                | http://api.example.org/accounts/?offset=200&limit=100              |
+| `results`                                                          | List\<[PokemonSummary](../../models/components/PokemonSummary.md)> | :heavy_minus_sign:                                                 | N/A                                                                |                                                                    |

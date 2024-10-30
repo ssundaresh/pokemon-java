@@ -1,0 +1,26 @@
+speakeasyVersion: 1.420.0
+sources:
+    Pokemon-OAS:
+        sourceNamespace: pokemon-oas
+        sourceRevisionDigest: sha256:a95513e256b22fc5b5cf0f11f33f5eb5c636218df9b6f3ab857964a13ff840b9
+        sourceBlobDigest: sha256:aefdc91b57f4aa1dd8e987141cfdca8629be4d7f574899a8ecf4254022c3d357
+        tags:
+            - latest
+targets:
+    pokemon:
+        source: Pokemon-OAS
+        sourceNamespace: pokemon-oas
+        sourceRevisionDigest: sha256:a95513e256b22fc5b5cf0f11f33f5eb5c636218df9b6f3ab857964a13ff840b9
+        sourceBlobDigest: sha256:aefdc91b57f4aa1dd8e987141cfdca8629be4d7f574899a8ecf4254022c3d357
+workflow:
+    workflowVersion: 1.0.0
+    sources:
+        Pokemon-OAS:
+            inputs:
+                - location: ../revised_pokeapi_oas.yaml
+            registry:
+                location: registry.speakeasyapi.dev/self-4v1/self-testing/pokemon-oas
+    targets:
+        pokemon:
+            target: java
+            source: Pokemon-OAS

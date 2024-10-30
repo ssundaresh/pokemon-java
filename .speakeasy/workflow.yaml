@@ -1,0 +1,11 @@
+workflowVersion: 1.0.0
+sources:
+    Pokemon-OAS:
+        inputs:
+            - location: ../revised_pokeapi_oas.yaml
+        registry:
+            location: registry.speakeasyapi.dev/self-4v1/self-testing/pokemon-oas
+targets:
+    pokemon:
+        target: java
+        source: Pokemon-OAS

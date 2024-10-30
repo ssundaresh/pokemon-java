@@ -1,0 +1,9 @@
+# Cries
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      | Example                                                                          |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `latest`                                                                         | *String*                                                                         | :heavy_check_mark:                                                               | N/A                                                                              | https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/50.ogg |
+| `legacy`                                                                         | *String*                                                                         | :heavy_check_mark:                                                               | N/A                                                                              | https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/50.ogg |
