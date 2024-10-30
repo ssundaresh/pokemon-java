@@ -21,6 +21,13 @@ Developer-friendly & type-safe Java SDK specifically catered to leverage *openap
 
 A Java SDK to access PokeAPI, which is a comprehensive database containing all the information you'll ever need about Pokémon!
 <!-- End Summary [summary] -->
+## Design Considerations
+* Simplicity is the guiding principle behind this SDK. As the API is, so is this SDK.
+
+* You can retrieve a pokemon or a generation of games by name or id, as well as lists of the same.
+    * The list function was included to a) allow the users to use an inbuilt function instead of iterating over multiple responses and b) to avoid having to possibly overtax the API edges
+
+* A set of fairly rudimentary integration tests are included in the "tests" folder under "src". These can also serve as examples of SDK usage
 
 <!-- Start Table of Contents [toc] -->
 ## Table of Contents
