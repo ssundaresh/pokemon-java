@@ -1,5 +1,7 @@
 # openapi
 ![alt text](98bx82.jpg)
+
+
 Developer-friendly & type-safe Java SDK specifically catered to leverage *openapi* API.
 
 <div align="left">
